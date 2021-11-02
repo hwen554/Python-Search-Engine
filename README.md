@@ -1,5 +1,5 @@
 # Python-Search-Engine
-Searching info from Google using python
+Searching info from Google using python reptile /* 利用 PYTHON 爬虫获取天气信息，以及城市信息和资料**/
 # translation time comparation
 +------------+----------+
 | Library    | Time     |
