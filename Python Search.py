@@ -90,3 +90,10 @@ print("Please enter the city name "+"("+remind+") "+trt10+"("+trt9+")")
 city=input()
 city=city+" weather"
 weather(city)
+# trt represents translation variable.
+# Each trt only for one sentence.
+# you can use gooletranlator as well.
+# program has two functions and each function implements translator.
+# translator works inside the function also outside one.
+# 并不是所有的信息都有自动翻译的功能
+# 会继续更新
