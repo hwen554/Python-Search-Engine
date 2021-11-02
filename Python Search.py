@@ -97,3 +97,4 @@ weather(city)
 # translator works inside the function also outside one.
 # 并不是所有的信息都有自动翻译的功能
 # 会继续更新
+# aomeng causes error
