@@ -2,7 +2,7 @@ import translator as translator #import translator
 from bs4 import BeautifulSoup   #import BeautifulSoup
 import requests
 
-from translate import Translator
+from translate import Translator #Warning: Translation has limitation
 # get info using pyreptile
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
 translator = Translator(from_lang="English", to_lang="Chinese")
