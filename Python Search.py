@@ -7,7 +7,7 @@ from translate import Translator
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
 translator = Translator(from_lang="English", to_lang="Chinese")
 def google(query):
-    translator = Translator(from_lang="English", to_lang="Chinese")
+    translator = Translator(from_lang="English", to_lang="Chinese") #translate English to Chinese
     query = query.replace(" ","+")
     try:
         url = f'https://www.google.com/search?q={query}&oq={query}&aqs=chrome..69i57j46j69i59j35i39j0j46j0l2.4948j0j7&sourceid=chrome&ie=UTF-8'
