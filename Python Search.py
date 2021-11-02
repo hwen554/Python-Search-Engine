@@ -1,6 +1,6 @@
 import translator as translator #import translator
 from bs4 import BeautifulSoup   #import BeautifulSoup
-import requests
+import requests #import requests
 
 from translate import Translator #Warning: Translation has limitation
 # get info using pyreptile
