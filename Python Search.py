@@ -36,12 +36,14 @@ def google(query):
 
     except:
         ans = "can't find on google,please try again!"
+        translator = Translator(from_lang="English", to_lang="Chinese")
     trt12 = translator.translate(ans)
     return ans+"\n"+trt12
+#translator = Translator(from_lang="English", to_lang="Chinese")
+#trt11 = translator.translate("Please enter your query thanks")
 translator = Translator(from_lang="English", to_lang="Chinese")
-trt11 = translator.translate("Please enter your query thanks")
 result = google(str(input("Please enter your query thanks\n")))
-print(result+" ("+trt11+")"+"\n")
+print(result)
 
 def weather(city):
     translator = Translator(from_lang="English", to_lang="Chinese")
