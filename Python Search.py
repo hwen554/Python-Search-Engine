@@ -37,8 +37,8 @@ def google(query):
     except:
         ans = "can't find on google,please try again!"
         translator = Translator(from_lang="English", to_lang="Chinese")
-    trt12 = translator.translate(ans)
-    return ans+"\n"+trt12
+    #trt12 = translator.translate(ans)
+    return ans+"\n"
 #translator = Translator(from_lang="English", to_lang="Chinese")
 #trt11 = translator.translate("Please enter your query thanks")
 translator = Translator(from_lang="English", to_lang="Chinese")
@@ -76,7 +76,7 @@ def weather(city):
     elif (wtr<24 and wtr>21):
         trt4 = translator.translate("comfy weather,go out for play!")
         print("Comfortable weather!"+" ("+trt4+")")
-    elif (wtr<21 and wtr>14):
+    elif (wtr<21 and wtr>=14):
         trt5 = translator.translate("comfy weather,go out for play!")
         print("Nice and cool weather!"+" ("+trt5+")")
     elif (wtr<14 and wtr>0):
