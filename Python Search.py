@@ -5,7 +5,7 @@ import requests #import requests
 from translate import Translator #Warning: Translation has limitation
 # get info using pyreptile
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-
+translator = Translator(from_lang="English", to_lang="Chinese") #translate English to Chinese
 def google(query):
     translator = Translator(from_lang="English", to_lang="Chinese") #translate English to Chinese
     query = query.replace(" ","+")
@@ -41,7 +41,7 @@ def google(query):
     return ans+"\n"
 #translator = Translator(from_lang="English", to_lang="Chinese")
 #trt11 = translator.translate("Please enter your query thanks")
-translator = Translator(from_lang="English", to_lang="Chinese")
+#translator = Translator(from_lang="English", to_lang="Chinese")
 result = google(str(input("Please enter your query thanks\n")))
 print(result)
 
