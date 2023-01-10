@@ -79,7 +79,7 @@ def weather(city):
     elif (wtr<21 and wtr>=14):
         trt5 = translator.translate("comfy weather,go out for play!")
         print("Nice and cool weather!"+" ("+trt5+")")
-    elif (wtr<14 and wtr>0):
+    elif (wtr<14 and wtr>0.1):
         trt6 = translator.translate("Very cold!")
         print("It is cold!"+" ("+trt6+")")
     else:
