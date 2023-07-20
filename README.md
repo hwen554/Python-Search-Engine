@@ -3,7 +3,7 @@ Searching info from Google using Python Scrapy /* 利用 PYTHON 爬虫获取天�
 # translation time comparation.
 
 
-It would generate warning 
+
 ![image](https://user-images.githubusercontent.com/78581470/139853490-b9d70885-76ca-4262-940b-be9c9e92d5eb.png)
 
 ![image](https://user-images.githubusercontent.com/78581470/139837992-1a005f6b-f7cc-4b67-aa3c-d52f43a73c79.png)
